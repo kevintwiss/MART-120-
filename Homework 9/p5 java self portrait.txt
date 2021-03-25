@@ -1,0 +1,50 @@
+function setup()
+{
+    createCanvas(500, 600);
+}
+
+function draw()
+{
+    background(120,45,78);
+    textSize(22)
+    text("My Name is Kevin", 10,30);
+
+    // noggin
+    fill(650, 404, 320);
+    circle(250,100,175);
+   
+    // eyes
+    strokeWeight(10);
+    fill(0);
+    point(200,80);
+    point(285,80);
+
+    // nose
+    point(245,90);
+    
+    // mouth
+    ellipse(250, 140, 10, 15)
+
+    // hair
+    line(150,175,175,50);
+    line(325,50,360,175);
+    // bod
+    fill(200, 24, 130);
+    rect(200,185,100,150);
+    
+    
+    fill(255);
+    // arm
+    fill(10, 24, 120);
+    rect(300,195,50,10);
+    // arm
+    rect(150,195,50,10);
+    // leg
+    rect(200,335,10,50);
+    // leg
+    rect(290,335,10,50);
+    
+    fill(120);
+    textSize(22);
+    text("Kevin Twiss",270,500 );
+}
